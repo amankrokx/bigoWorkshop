@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML and CSS Demo</title>
+  <style>
+    /* CSS basics: selectors, properties, and styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    
+    p {
+      color: #666;
+    }
+    
+    .highlight {
+      background-color: yellow;
+    }
+    
+    #red-text {
+      color: red;
+    }
+    
+    /* Building layouts and responsive designs with CSS */
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+    
+    .box {
+      background-color: #f1f1f1;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .box:last-child {
+      margin-bottom: 0;
+    }
+    
+    .left {
+      float: left;
+      width: 50%;
+    }
+    
+    .right {
+      float: right;
+      width: 50%;
+    }
+    
+    @media (max-width: 768px) {
+      .left, .right {
+        float: none;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>HTML and CSS Demo</h1>
+    
+    <p>Welcome to the demo website where we explore HTML and CSS!</p>
+    
+    <h2>CSS basics: selectors, properties, and styling</h2>
+    
+    <p>This paragraph is a <span class="highlight">highlighted text</span> using CSS class selector.</p>
+    
+    <p id="red-text">This paragraph has red text color using CSS ID selector.</p>
+    
+    <h2>Building layouts and responsive designs with CSS</h2>
+    
+    <div class="box left">
+      <h3>Box 1</h3>
+      <p>This is the left box.</p>
+    </div>
+    
+    <div class="box right">
+      <h3>Box 2</h3>
+      <p>This is the right box.</p>
+    </div>
+    
+    <div class="box">
+      <h3>Box 3</h3>
+      <p>This is a normal box.</p>
+    </div>
+  </div>
+</body>
+</html>
