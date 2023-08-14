@@ -45,10 +45,10 @@ a. HTML and CSS Fundamentals
 b. JavaScript Fundamentals
    - Introduction to JavaScript: variables, data types, and operators
    - Functions, control flow, and loops
-   - Objects and Object-oriented Programming (OOP) concepts
+   - Array methods like map, filter, reduce, and forEach for data manipulation and transformation
    - Rest and spread operators for handling arrays and objects
    - ES6 and ES7 syntaxes and features, such as arrow functions, template literals, destructuring assignments, and default parameters
-   - Array methods like map, filter, reduce, and forEach for data manipulation and transformation
+   - Objects and Object-oriented Programming (OOP) concepts
    - Introduction to module bundlers (e.g., Webpack or Rollup) for managing dependencies and bundling code
    - Managing JavaScript code across different files
      - Organizing code into modules
